@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F74B780E53CD7800431A2B /* Plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 88F74B770E53CD7800431A2B /* Plugin.xml */; };
+		88F74BF80E53CF9800431A2B /* BAntlrBaseTreeWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F74BF20E53CF9800431A2B /* BAntlrBaseTreeWrapper.m */; };
+		88F74BFA0E53CF9800431A2B /* BAntlrCommonTokenWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F74BF40E53CF9800431A2B /* BAntlrCommonTokenWrapper.m */; };
+		88F74BFC0E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F74BF60E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.m */; };
+		88F74C600E53D16C00431A2B /* antlr3baserecognizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C470E53D16C00431A2B /* antlr3baserecognizer.c */; };
+		88F74C610E53D16C00431A2B /* antlr3basetree.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C480E53D16C00431A2B /* antlr3basetree.c */; };
+		88F74C620E53D16C00431A2B /* antlr3basetreeadaptor.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C490E53D16C00431A2B /* antlr3basetreeadaptor.c */; };
+		88F74C630E53D16C00431A2B /* antlr3bitset.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C4A0E53D16C00431A2B /* antlr3bitset.c */; };
+		88F74C640E53D16C00431A2B /* antlr3collections.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C4B0E53D16C00431A2B /* antlr3collections.c */; };
+		88F74C650E53D16C00431A2B /* antlr3commontoken.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C4C0E53D16C00431A2B /* antlr3commontoken.c */; };
+		88F74C660E53D16C00431A2B /* antlr3commontree.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C4D0E53D16C00431A2B /* antlr3commontree.c */; };
+		88F74C670E53D16C00431A2B /* antlr3commontreeadaptor.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C4E0E53D16C00431A2B /* antlr3commontreeadaptor.c */; };
+		88F74C680E53D16C00431A2B /* antlr3commontreenodestream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C4F0E53D16C00431A2B /* antlr3commontreenodestream.c */; };
+		88F74C690E53D16C00431A2B /* antlr3convertutf.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C500E53D16C00431A2B /* antlr3convertutf.c */; };
+		88F74C6A0E53D16C00431A2B /* antlr3cyclicdfa.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C510E53D16C00431A2B /* antlr3cyclicdfa.c */; };
+		88F74C6B0E53D16C00431A2B /* antlr3debughandlers.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C520E53D16C00431A2B /* antlr3debughandlers.c */; };
+		88F74C6C0E53D16C00431A2B /* antlr3exception.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C530E53D16C00431A2B /* antlr3exception.c */; };
+		88F74C6D0E53D16C00431A2B /* antlr3filestream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C540E53D16C00431A2B /* antlr3filestream.c */; };
+		88F74C6E0E53D16C00431A2B /* antlr3inputstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C550E53D16C00431A2B /* antlr3inputstream.c */; };
+		88F74C6F0E53D16C00431A2B /* antlr3intstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C560E53D16C00431A2B /* antlr3intstream.c */; };
+		88F74C700E53D16C00431A2B /* antlr3lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C570E53D16C00431A2B /* antlr3lexer.c */; };
+		88F74C710E53D16C00431A2B /* antlr3parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C580E53D16C00431A2B /* antlr3parser.c */; };
+		88F74C720E53D16C00431A2B /* antlr3rewritestreams.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C590E53D16C00431A2B /* antlr3rewritestreams.c */; };
+		88F74C730E53D16C00431A2B /* antlr3string.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C5A0E53D16C00431A2B /* antlr3string.c */; };
+		88F74C740E53D16C00431A2B /* antlr3stringstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C5B0E53D16C00431A2B /* antlr3stringstream.c */; };
+		88F74C750E53D16C00431A2B /* antlr3tokenstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C5C0E53D16C00431A2B /* antlr3tokenstream.c */; };
+		88F74C760E53D16C00431A2B /* antlr3treeparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C5D0E53D16C00431A2B /* antlr3treeparser.c */; };
+		88F74C770E53D16C00431A2B /* antlr3ucs2inputstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C5E0E53D16C00431A2B /* antlr3ucs2inputstream.c */; };
+		88F74C780E53D16C00431A2B /* antlr3encodings.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F74C5F0E53D16C00431A2B /* antlr3encodings.c */; };
+		88F74CF50E53D5A500431A2B /* BAntlrBaseTreeWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74BF10E53CF9800431A2B /* BAntlrBaseTreeWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D070E53D5F600431A2B /* BAntlrCommonTokenStreamWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74BF50E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D080E53D5F800431A2B /* BAntlrCommonTokenWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74BF30E53CF9800431A2B /* BAntlrCommonTokenWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D090E53D60700431A2B /* BAntlr.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74C9C0E53D2F400431A2B /* BAntlr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D160E53D61D00431A2B /* antlr3.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B450E53CC0700431A2B /* antlr3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D170E53D61D00431A2B /* antlr3baserecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B460E53CC0700431A2B /* antlr3baserecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D180E53D61D00431A2B /* antlr3basetree.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B470E53CC0700431A2B /* antlr3basetree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D190E53D61D00431A2B /* antlr3basetreeadaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B480E53CC0700431A2B /* antlr3basetreeadaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D1A0E53D61D00431A2B /* antlr3bitset.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B490E53CC0700431A2B /* antlr3bitset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D1B0E53D61D00431A2B /* antlr3collections.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B4A0E53CC0700431A2B /* antlr3collections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D1C0E53D61D00431A2B /* antlr3commontoken.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B4B0E53CC0700431A2B /* antlr3commontoken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D1D0E53D61D00431A2B /* antlr3commontree.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B4C0E53CC0700431A2B /* antlr3commontree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D1E0E53D61D00431A2B /* antlr3commontreeadaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B4D0E53CC0700431A2B /* antlr3commontreeadaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D1F0E53D61D00431A2B /* antlr3commontreenodestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B4E0E53CC0700431A2B /* antlr3commontreenodestream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D200E53D61D00431A2B /* antlr3config.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B4F0E53CC0700431A2B /* antlr3config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D210E53D61D00431A2B /* antlr3convertutf.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B500E53CC0700431A2B /* antlr3convertutf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D220E53D61D00431A2B /* antlr3cyclicdfa.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B510E53CC0700431A2B /* antlr3cyclicdfa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D230E53D61D00431A2B /* antlr3debugeventlistener.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B520E53CC0700431A2B /* antlr3debugeventlistener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D240E53D61D00431A2B /* antlr3defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B530E53CC0700431A2B /* antlr3defs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D250E53D61D00431A2B /* antlr3encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B540E53CC0700431A2B /* antlr3encodings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D260E53D61D00431A2B /* antlr3errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B550E53CC0700431A2B /* antlr3errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D270E53D61D00431A2B /* antlr3exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B560E53CC0700431A2B /* antlr3exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D280E53D61D00431A2B /* antlr3filestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B570E53CC0700431A2B /* antlr3filestream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D290E53D61D00431A2B /* antlr3input.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B580E53CC0700431A2B /* antlr3input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D2A0E53D61D00431A2B /* antlr3interfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B590E53CC0700431A2B /* antlr3interfaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D2B0E53D61D00431A2B /* antlr3intstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B5A0E53CC0700431A2B /* antlr3intstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D2C0E53D61D00431A2B /* antlr3lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B5B0E53CC0700431A2B /* antlr3lexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D2D0E53D61D00431A2B /* antlr3memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B5C0E53CC0700431A2B /* antlr3memory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D2E0E53D61D00431A2B /* antlr3parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B5D0E53CC0700431A2B /* antlr3parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D2F0E53D61D00431A2B /* antlr3parsetree.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B5E0E53CC0700431A2B /* antlr3parsetree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D300E53D61D00431A2B /* antlr3recognizersharedstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B5F0E53CC0700431A2B /* antlr3recognizersharedstate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D310E53D61D00431A2B /* antlr3rewritestreams.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B600E53CC0700431A2B /* antlr3rewritestreams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D320E53D61D00431A2B /* antlr3string.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B610E53CC0700431A2B /* antlr3string.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D330E53D61D00431A2B /* antlr3stringstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B620E53CC0700431A2B /* antlr3stringstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D340E53D61D00431A2B /* antlr3tokenstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B630E53CC0700431A2B /* antlr3tokenstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F74D350E53D61D00431A2B /* antlr3treeparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F74B640E53CC0700431A2B /* antlr3treeparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88F74D030E53D5CF00431A2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* BAntlr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAntlr_Prefix.pch; sourceTree = "<group>"; };
+		88F74B450E53CC0700431A2B /* antlr3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3.h; sourceTree = "<group>"; };
+		88F74B460E53CC0700431A2B /* antlr3baserecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3baserecognizer.h; sourceTree = "<group>"; };
+		88F74B470E53CC0700431A2B /* antlr3basetree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3basetree.h; sourceTree = "<group>"; };
+		88F74B480E53CC0700431A2B /* antlr3basetreeadaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3basetreeadaptor.h; sourceTree = "<group>"; };
+		88F74B490E53CC0700431A2B /* antlr3bitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3bitset.h; sourceTree = "<group>"; };
+		88F74B4A0E53CC0700431A2B /* antlr3collections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3collections.h; sourceTree = "<group>"; };
+		88F74B4B0E53CC0700431A2B /* antlr3commontoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3commontoken.h; sourceTree = "<group>"; };
+		88F74B4C0E53CC0700431A2B /* antlr3commontree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3commontree.h; sourceTree = "<group>"; };
+		88F74B4D0E53CC0700431A2B /* antlr3commontreeadaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3commontreeadaptor.h; sourceTree = "<group>"; };
+		88F74B4E0E53CC0700431A2B /* antlr3commontreenodestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3commontreenodestream.h; sourceTree = "<group>"; };
+		88F74B4F0E53CC0700431A2B /* antlr3config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3config.h; sourceTree = "<group>"; };
+		88F74B500E53CC0700431A2B /* antlr3convertutf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3convertutf.h; sourceTree = "<group>"; };
+		88F74B510E53CC0700431A2B /* antlr3cyclicdfa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3cyclicdfa.h; sourceTree = "<group>"; };
+		88F74B520E53CC0700431A2B /* antlr3debugeventlistener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3debugeventlistener.h; sourceTree = "<group>"; };
+		88F74B530E53CC0700431A2B /* antlr3defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3defs.h; sourceTree = "<group>"; };
+		88F74B540E53CC0700431A2B /* antlr3encodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3encodings.h; sourceTree = "<group>"; };
+		88F74B550E53CC0700431A2B /* antlr3errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3errors.h; sourceTree = "<group>"; };
+		88F74B560E53CC0700431A2B /* antlr3exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3exception.h; sourceTree = "<group>"; };
+		88F74B570E53CC0700431A2B /* antlr3filestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3filestream.h; sourceTree = "<group>"; };
+		88F74B580E53CC0700431A2B /* antlr3input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3input.h; sourceTree = "<group>"; };
+		88F74B590E53CC0700431A2B /* antlr3interfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3interfaces.h; sourceTree = "<group>"; };
+		88F74B5A0E53CC0700431A2B /* antlr3intstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3intstream.h; sourceTree = "<group>"; };
+		88F74B5B0E53CC0700431A2B /* antlr3lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3lexer.h; sourceTree = "<group>"; };
+		88F74B5C0E53CC0700431A2B /* antlr3memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3memory.h; sourceTree = "<group>"; };
+		88F74B5D0E53CC0700431A2B /* antlr3parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3parser.h; sourceTree = "<group>"; };
+		88F74B5E0E53CC0700431A2B /* antlr3parsetree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3parsetree.h; sourceTree = "<group>"; };
+		88F74B5F0E53CC0700431A2B /* antlr3recognizersharedstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3recognizersharedstate.h; sourceTree = "<group>"; };
+		88F74B600E53CC0700431A2B /* antlr3rewritestreams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3rewritestreams.h; sourceTree = "<group>"; };
+		88F74B610E53CC0700431A2B /* antlr3string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3string.h; sourceTree = "<group>"; };
+		88F74B620E53CC0700431A2B /* antlr3stringstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3stringstream.h; sourceTree = "<group>"; };
+		88F74B630E53CC0700431A2B /* antlr3tokenstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3tokenstream.h; sourceTree = "<group>"; };
+		88F74B640E53CC0700431A2B /* antlr3treeparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antlr3treeparser.h; sourceTree = "<group>"; };
+		88F74B770E53CD7800431A2B /* Plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plugin.xml; sourceTree = "<group>"; };
+		88F74BF10E53CF9800431A2B /* BAntlrBaseTreeWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAntlrBaseTreeWrapper.h; sourceTree = "<group>"; };
+		88F74BF20E53CF9800431A2B /* BAntlrBaseTreeWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAntlrBaseTreeWrapper.m; sourceTree = "<group>"; };
+		88F74BF30E53CF9800431A2B /* BAntlrCommonTokenWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAntlrCommonTokenWrapper.h; sourceTree = "<group>"; };
+		88F74BF40E53CF9800431A2B /* BAntlrCommonTokenWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAntlrCommonTokenWrapper.m; sourceTree = "<group>"; };
+		88F74BF50E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAntlrCommonTokenStreamWrapper.h; sourceTree = "<group>"; };
+		88F74BF60E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAntlrCommonTokenStreamWrapper.m; sourceTree = "<group>"; };
+		88F74C470E53D16C00431A2B /* antlr3baserecognizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3baserecognizer.c; sourceTree = "<group>"; };
+		88F74C480E53D16C00431A2B /* antlr3basetree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3basetree.c; sourceTree = "<group>"; };
+		88F74C490E53D16C00431A2B /* antlr3basetreeadaptor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3basetreeadaptor.c; sourceTree = "<group>"; };
+		88F74C4A0E53D16C00431A2B /* antlr3bitset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3bitset.c; sourceTree = "<group>"; };
+		88F74C4B0E53D16C00431A2B /* antlr3collections.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3collections.c; sourceTree = "<group>"; };
+		88F74C4C0E53D16C00431A2B /* antlr3commontoken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3commontoken.c; sourceTree = "<group>"; };
+		88F74C4D0E53D16C00431A2B /* antlr3commontree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3commontree.c; sourceTree = "<group>"; };
+		88F74C4E0E53D16C00431A2B /* antlr3commontreeadaptor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3commontreeadaptor.c; sourceTree = "<group>"; };
+		88F74C4F0E53D16C00431A2B /* antlr3commontreenodestream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3commontreenodestream.c; sourceTree = "<group>"; };
+		88F74C500E53D16C00431A2B /* antlr3convertutf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3convertutf.c; sourceTree = "<group>"; };
+		88F74C510E53D16C00431A2B /* antlr3cyclicdfa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3cyclicdfa.c; sourceTree = "<group>"; };
+		88F74C520E53D16C00431A2B /* antlr3debughandlers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3debughandlers.c; sourceTree = "<group>"; };
+		88F74C530E53D16C00431A2B /* antlr3exception.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3exception.c; sourceTree = "<group>"; };
+		88F74C540E53D16C00431A2B /* antlr3filestream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3filestream.c; sourceTree = "<group>"; };
+		88F74C550E53D16C00431A2B /* antlr3inputstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3inputstream.c; sourceTree = "<group>"; };
+		88F74C560E53D16C00431A2B /* antlr3intstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3intstream.c; sourceTree = "<group>"; };
+		88F74C570E53D16C00431A2B /* antlr3lexer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3lexer.c; sourceTree = "<group>"; };
+		88F74C580E53D16C00431A2B /* antlr3parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3parser.c; sourceTree = "<group>"; };
+		88F74C590E53D16C00431A2B /* antlr3rewritestreams.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3rewritestreams.c; sourceTree = "<group>"; };
+		88F74C5A0E53D16C00431A2B /* antlr3string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3string.c; sourceTree = "<group>"; };
+		88F74C5B0E53D16C00431A2B /* antlr3stringstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3stringstream.c; sourceTree = "<group>"; };
+		88F74C5C0E53D16C00431A2B /* antlr3tokenstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3tokenstream.c; sourceTree = "<group>"; };
+		88F74C5D0E53D16C00431A2B /* antlr3treeparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3treeparser.c; sourceTree = "<group>"; };
+		88F74C5E0E53D16C00431A2B /* antlr3ucs2inputstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3ucs2inputstream.c; sourceTree = "<group>"; };
+		88F74C5F0E53D16C00431A2B /* antlr3encodings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = antlr3encodings.c; sourceTree = "<group>"; };
+		88F74C9C0E53D2F400431A2B /* BAntlr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAntlr.h; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* BAntlr.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAntlr.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* BAntlr */ = {
+			isa = PBXGroup;
+			children = (
+				88F74C9C0E53D2F400431A2B /* BAntlr.h */,
+				88F74C000E53CFA200431A2B /* Antlr Headers */,
+				88F74C950E53D22A00431A2B /* Antlr Code */,
+				08FB77AFFE84173DC02AAC07 /* Antlr Wrappers */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = BAntlr;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				88F74B770E53CD7800431A2B /* Plugin.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Antlr Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				88F74BF10E53CF9800431A2B /* BAntlrBaseTreeWrapper.h */,
+				88F74BF20E53CF9800431A2B /* BAntlrBaseTreeWrapper.m */,
+				88F74BF30E53CF9800431A2B /* BAntlrCommonTokenWrapper.h */,
+				88F74BF40E53CF9800431A2B /* BAntlrCommonTokenWrapper.m */,
+				88F74BF50E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.h */,
+				88F74BF60E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.m */,
+			);
+			name = "Antlr Wrappers";
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* BAntlr.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* BAntlr_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		88F74C000E53CFA200431A2B /* Antlr Headers */ = {
+			isa = PBXGroup;
+			children = (
+				88F74B450E53CC0700431A2B /* antlr3.h */,
+				88F74B460E53CC0700431A2B /* antlr3baserecognizer.h */,
+				88F74B470E53CC0700431A2B /* antlr3basetree.h */,
+				88F74B480E53CC0700431A2B /* antlr3basetreeadaptor.h */,
+				88F74B490E53CC0700431A2B /* antlr3bitset.h */,
+				88F74B4A0E53CC0700431A2B /* antlr3collections.h */,
+				88F74B4B0E53CC0700431A2B /* antlr3commontoken.h */,
+				88F74B4C0E53CC0700431A2B /* antlr3commontree.h */,
+				88F74B4D0E53CC0700431A2B /* antlr3commontreeadaptor.h */,
+				88F74B4E0E53CC0700431A2B /* antlr3commontreenodestream.h */,
+				88F74B4F0E53CC0700431A2B /* antlr3config.h */,
+				88F74B500E53CC0700431A2B /* antlr3convertutf.h */,
+				88F74B510E53CC0700431A2B /* antlr3cyclicdfa.h */,
+				88F74B520E53CC0700431A2B /* antlr3debugeventlistener.h */,
+				88F74B530E53CC0700431A2B /* antlr3defs.h */,
+				88F74B540E53CC0700431A2B /* antlr3encodings.h */,
+				88F74B550E53CC0700431A2B /* antlr3errors.h */,
+				88F74B560E53CC0700431A2B /* antlr3exception.h */,
+				88F74B570E53CC0700431A2B /* antlr3filestream.h */,
+				88F74B580E53CC0700431A2B /* antlr3input.h */,
+				88F74B590E53CC0700431A2B /* antlr3interfaces.h */,
+				88F74B5A0E53CC0700431A2B /* antlr3intstream.h */,
+				88F74B5B0E53CC0700431A2B /* antlr3lexer.h */,
+				88F74B5C0E53CC0700431A2B /* antlr3memory.h */,
+				88F74B5D0E53CC0700431A2B /* antlr3parser.h */,
+				88F74B5E0E53CC0700431A2B /* antlr3parsetree.h */,
+				88F74B5F0E53CC0700431A2B /* antlr3recognizersharedstate.h */,
+				88F74B600E53CC0700431A2B /* antlr3rewritestreams.h */,
+				88F74B610E53CC0700431A2B /* antlr3string.h */,
+				88F74B620E53CC0700431A2B /* antlr3stringstream.h */,
+				88F74B630E53CC0700431A2B /* antlr3tokenstream.h */,
+				88F74B640E53CC0700431A2B /* antlr3treeparser.h */,
+			);
+			name = "Antlr Headers";
+			sourceTree = "<group>";
+		};
+		88F74C950E53D22A00431A2B /* Antlr Code */ = {
+			isa = PBXGroup;
+			children = (
+				88F74C470E53D16C00431A2B /* antlr3baserecognizer.c */,
+				88F74C480E53D16C00431A2B /* antlr3basetree.c */,
+				88F74C490E53D16C00431A2B /* antlr3basetreeadaptor.c */,
+				88F74C4A0E53D16C00431A2B /* antlr3bitset.c */,
+				88F74C4B0E53D16C00431A2B /* antlr3collections.c */,
+				88F74C4C0E53D16C00431A2B /* antlr3commontoken.c */,
+				88F74C4D0E53D16C00431A2B /* antlr3commontree.c */,
+				88F74C4E0E53D16C00431A2B /* antlr3commontreeadaptor.c */,
+				88F74C4F0E53D16C00431A2B /* antlr3commontreenodestream.c */,
+				88F74C500E53D16C00431A2B /* antlr3convertutf.c */,
+				88F74C510E53D16C00431A2B /* antlr3cyclicdfa.c */,
+				88F74C520E53D16C00431A2B /* antlr3debughandlers.c */,
+				88F74C530E53D16C00431A2B /* antlr3exception.c */,
+				88F74C540E53D16C00431A2B /* antlr3filestream.c */,
+				88F74C550E53D16C00431A2B /* antlr3inputstream.c */,
+				88F74C560E53D16C00431A2B /* antlr3intstream.c */,
+				88F74C570E53D16C00431A2B /* antlr3lexer.c */,
+				88F74C580E53D16C00431A2B /* antlr3parser.c */,
+				88F74C590E53D16C00431A2B /* antlr3rewritestreams.c */,
+				88F74C5A0E53D16C00431A2B /* antlr3string.c */,
+				88F74C5B0E53D16C00431A2B /* antlr3stringstream.c */,
+				88F74C5C0E53D16C00431A2B /* antlr3tokenstream.c */,
+				88F74C5D0E53D16C00431A2B /* antlr3treeparser.c */,
+				88F74C5E0E53D16C00431A2B /* antlr3ucs2inputstream.c */,
+				88F74C5F0E53D16C00431A2B /* antlr3encodings.c */,
+			);
+			name = "Antlr Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		88F74D020E53D5CF00431A2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F74D090E53D60700431A2B /* BAntlr.h in Headers */,
+				88F74CF50E53D5A500431A2B /* BAntlrBaseTreeWrapper.h in Headers */,
+				88F74D080E53D5F800431A2B /* BAntlrCommonTokenWrapper.h in Headers */,
+				88F74D070E53D5F600431A2B /* BAntlrCommonTokenStreamWrapper.h in Headers */,
+				88F74D160E53D61D00431A2B /* antlr3.h in Headers */,
+				88F74D170E53D61D00431A2B /* antlr3baserecognizer.h in Headers */,
+				88F74D180E53D61D00431A2B /* antlr3basetree.h in Headers */,
+				88F74D190E53D61D00431A2B /* antlr3basetreeadaptor.h in Headers */,
+				88F74D1A0E53D61D00431A2B /* antlr3bitset.h in Headers */,
+				88F74D1B0E53D61D00431A2B /* antlr3collections.h in Headers */,
+				88F74D1C0E53D61D00431A2B /* antlr3commontoken.h in Headers */,
+				88F74D1D0E53D61D00431A2B /* antlr3commontree.h in Headers */,
+				88F74D1E0E53D61D00431A2B /* antlr3commontreeadaptor.h in Headers */,
+				88F74D1F0E53D61D00431A2B /* antlr3commontreenodestream.h in Headers */,
+				88F74D200E53D61D00431A2B /* antlr3config.h in Headers */,
+				88F74D210E53D61D00431A2B /* antlr3convertutf.h in Headers */,
+				88F74D220E53D61D00431A2B /* antlr3cyclicdfa.h in Headers */,
+				88F74D230E53D61D00431A2B /* antlr3debugeventlistener.h in Headers */,
+				88F74D240E53D61D00431A2B /* antlr3defs.h in Headers */,
+				88F74D250E53D61D00431A2B /* antlr3encodings.h in Headers */,
+				88F74D260E53D61D00431A2B /* antlr3errors.h in Headers */,
+				88F74D270E53D61D00431A2B /* antlr3exception.h in Headers */,
+				88F74D280E53D61D00431A2B /* antlr3filestream.h in Headers */,
+				88F74D290E53D61D00431A2B /* antlr3input.h in Headers */,
+				88F74D2A0E53D61D00431A2B /* antlr3interfaces.h in Headers */,
+				88F74D2B0E53D61D00431A2B /* antlr3intstream.h in Headers */,
+				88F74D2C0E53D61D00431A2B /* antlr3lexer.h in Headers */,
+				88F74D2D0E53D61D00431A2B /* antlr3memory.h in Headers */,
+				88F74D2E0E53D61D00431A2B /* antlr3parser.h in Headers */,
+				88F74D2F0E53D61D00431A2B /* antlr3parsetree.h in Headers */,
+				88F74D300E53D61D00431A2B /* antlr3recognizersharedstate.h in Headers */,
+				88F74D310E53D61D00431A2B /* antlr3rewritestreams.h in Headers */,
+				88F74D320E53D61D00431A2B /* antlr3string.h in Headers */,
+				88F74D330E53D61D00431A2B /* antlr3stringstream.h in Headers */,
+				88F74D340E53D61D00431A2B /* antlr3tokenstream.h in Headers */,
+				88F74D350E53D61D00431A2B /* antlr3treeparser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* BAntlr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "BAntlr" */;
+			buildPhases = (
+				88F74D020E53D5CF00431A2B /* Headers */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				88F74D030E53D5CF00431A2B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BAntlr;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = BAntlr;
+			productReference = 8D5B49B6048680CD000E48DA /* BAntlr.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "BAntlr" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* BAntlr */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* BAntlr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				88F74B780E53CD7800431A2B /* Plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F74BF80E53CF9800431A2B /* BAntlrBaseTreeWrapper.m in Sources */,
+				88F74BFA0E53CF9800431A2B /* BAntlrCommonTokenWrapper.m in Sources */,
+				88F74BFC0E53CF9800431A2B /* BAntlrCommonTokenStreamWrapper.m in Sources */,
+				88F74C600E53D16C00431A2B /* antlr3baserecognizer.c in Sources */,
+				88F74C610E53D16C00431A2B /* antlr3basetree.c in Sources */,
+				88F74C620E53D16C00431A2B /* antlr3basetreeadaptor.c in Sources */,
+				88F74C630E53D16C00431A2B /* antlr3bitset.c in Sources */,
+				88F74C640E53D16C00431A2B /* antlr3collections.c in Sources */,
+				88F74C650E53D16C00431A2B /* antlr3commontoken.c in Sources */,
+				88F74C660E53D16C00431A2B /* antlr3commontree.c in Sources */,
+				88F74C670E53D16C00431A2B /* antlr3commontreeadaptor.c in Sources */,
+				88F74C680E53D16C00431A2B /* antlr3commontreenodestream.c in Sources */,
+				88F74C690E53D16C00431A2B /* antlr3convertutf.c in Sources */,
+				88F74C6A0E53D16C00431A2B /* antlr3cyclicdfa.c in Sources */,
+				88F74C6B0E53D16C00431A2B /* antlr3debughandlers.c in Sources */,
+				88F74C6C0E53D16C00431A2B /* antlr3exception.c in Sources */,
+				88F74C6D0E53D16C00431A2B /* antlr3filestream.c in Sources */,
+				88F74C6E0E53D16C00431A2B /* antlr3inputstream.c in Sources */,
+				88F74C6F0E53D16C00431A2B /* antlr3intstream.c in Sources */,
+				88F74C700E53D16C00431A2B /* antlr3lexer.c in Sources */,
+				88F74C710E53D16C00431A2B /* antlr3parser.c in Sources */,
+				88F74C720E53D16C00431A2B /* antlr3rewritestreams.c in Sources */,
+				88F74C730E53D16C00431A2B /* antlr3string.c in Sources */,
+				88F74C740E53D16C00431A2B /* antlr3stringstream.c in Sources */,
+				88F74C750E53D16C00431A2B /* antlr3tokenstream.c in Sources */,
+				88F74C760E53D16C00431A2B /* antlr3treeparser.c in Sources */,
+				88F74C770E53D16C00431A2B /* antlr3ucs2inputstream.c in Sources */,
+				88F74C780E53D16C00431A2B /* antlr3encodings.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BAntlr_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = BAntlr;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BAntlr_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = BAntlr;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "BAntlr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "BAntlr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
