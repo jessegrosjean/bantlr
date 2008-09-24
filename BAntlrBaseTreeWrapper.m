@@ -35,7 +35,7 @@
 {
 	pANTLR3_STRING string = tree->getText(tree);
 	pANTLR3_STRING utf8String = string->toUTF8(string);
-	return [NSString stringWithUTF8String:utf8String->chars];
+	return [NSString stringWithUTF8String:(const char *)utf8String->chars];
 }
 
 - (int)type {
@@ -74,7 +74,7 @@
 - (NSString *)description {
 	pANTLR3_STRING string = tree->toStringTree(tree);
 	pANTLR3_STRING utf8String = string->toUTF8(string);
-	return [NSString stringWithFormat:@"%i %@", [self type], [NSString stringWithUTF8String:utf8String->chars], nil];
+	return [NSString stringWithFormat:@"%i %@", [self type], [NSString stringWithUTF8String:(const char *)utf8String->chars], nil];
 }
 
 
